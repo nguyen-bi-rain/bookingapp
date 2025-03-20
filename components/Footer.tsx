@@ -6,7 +6,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#13253F] w-full '>
+    <footer className='bg-[#13253F] w-full mt-20'>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 max-w-6xl mx-auto gap-20 py-20">
         <div >
           <div className='flex flex-col gap-3 mb-3 justify-center'>

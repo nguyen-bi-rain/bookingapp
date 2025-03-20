@@ -22,7 +22,8 @@ export default {
     },
     animation :{
       "scroll-down" : "scroll 0.4s linear"
-    }
+    },
+    
 
 	}
   },
