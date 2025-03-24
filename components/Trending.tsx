@@ -29,11 +29,11 @@ const Trending = () => {
                     </div>
                     <Typography variant="body1" sx={{ color: "#ffffff", fontSize: "1rem", fontWeight: 400, marginTop: "1rem", maxWidth: "505px" }} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget auctor nunc. Quisque ac nisl vel odio ultricies tincidunt. </Typography>
                     <div className="mt-12 flex items-center gap-5">
-                        <Button variant="contained" sx={{ borderRadius: "40px 40px", backgroundColor: "#FFDA32", color: "var(--text-color)", fontWeight: 500, fontSize: "0.825rem", padding: "0.825rem 3.5rem", boxShadow :"0px 7px 20px 2px rgba(227,207,35,0.75)" }} >Book now</Button>
+                        <Button variant="contained" sx={{ borderRadius: "40px 40px", backgroundColor: "#FFDA32", color: "var(--text-color)", fontWeight: 500, fontSize: "0.825rem", padding: "0.825rem 3.5rem", boxShadow :"0px 7px 20px 2px rgba(227,207,35,0.75)",cursor :"pointer" }} >Book now</Button>
                         <span className="w-[1px] h-[14px]  bg-white ml-4 block"></span>
                         <div className="flex items-center gap-2">
-                            <span className="block p-4 rounded-full bg-white/15 border-[1px] border-white "> <Heart size={14} color="white" /></span>
-                            <span className="block p-4 rounded-full bg-white/15 border-[1px] border-white "><Share2 size={14} color="white" /></span>
+                            <button type='button' className="block p-4 rounded-full bg-white/15 border-[1px] border-white hover:cursor-pointer"><Heart size={14} color="white" /></button>
+                            <button type='button' className="block p-4 rounded-full bg-white/15 border-[1px] border-white hover:cursor-pointer"><Share2 size={14} color="white" /></button>
                         </div>
                     </div>
                 </div>

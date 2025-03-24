@@ -27,7 +27,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({
 }) => {
 
   return (
-    <Card className="overflow-hidden rounded-lg shadow-lg p-0 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <Card style={{flex : '0 0 20%', minHeight :0}} className=" overflow-hidden rounded-lg shadow-lg p-0 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Card Header with Image */}
       <div className="relative p-2">
         <CardMedia

@@ -33,7 +33,9 @@ export default function RootLayout({
         className={`${robotos.variable} antialiased`}
       >
         <Header/>
+        <div className="bg-[#F9FAFD]">
         {children}
+        </div>
         <Footer/>
       </body>
     </html>
